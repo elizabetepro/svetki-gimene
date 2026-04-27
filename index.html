@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<title>Svētki manā ģimenē</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Svētki manā ģimenē</h1>
+    <nav>
+        <a href="#gallery">Galerija</a>
+        <a href="#content">Saturs</a>
+        <a href="#form">Forma</a>
+    </nav>
+</header>
+
+<!-- GALERIJA -->
+<section id="gallery" class="gallery">
+
+    <div class="block" onclick="openPage('dzimsana.html')">
+        <img src="https://picsum.photos/600/400?1">
+        <div class="overlay">Dzimšanas dienas</div>
+    </div>
+
+    <div class="block" onclick="openPage('ziemassvetki.html')">
+        <img src="https://picsum.photos/600/400?2">
+        <div class="overlay">Ziemassvētki</div>
+    </div>
+
+    <div class="block" onclick="openPage('jaunaisgads.html')">
+        <img src="https://picsum.photos/600/400?3">
+        <div class="overlay">Jaunais gads</div>
+    </div>
+
+    <div class="block" onclick="openPage('lieldienas.html')">
+        <img src="https://picsum.photos/600/400?4">
+        <div class="overlay">Lieldienas</div>
+    </div>
+
+</section>
+
+<!-- SATURS -->
+<section id="content" class="content">
+    <h2>Kopīgās svētku tradīcijas</h2>
+    <p>
+        Mūsu ģimenē svētki vienmēr nozīmē kopā būšanu, prieku un tradīciju saglabāšanu.
+        Dzimšanas dienās svarīgākais ir jubilārs, kūka un sveicieni.
+        Ziemassvētkos valda siltums, eglīte un dāvanu pasniegšana.
+        Jaunajā gadā visi kopā sagaidām pusnakti ar svinībām un uguņošanu.
+        Lieldienās tiek krāsotas olas un notiek jautras spēles.
+        Visus šos svētkus vieno ģimeniskums, kopīgas maltītes un pozitīvas emocijas.
+    </p>
+</section>
+
+<!-- FORMA -->
+<section id="form" class="form-section">
+    <h2>Dalaties kā Jūs ģimenē svinat svētkus!</h2>
+
+<form action="http://www.aaasite.Iv/cgi-bin/aaaprog" enctype="multipart/form-data" method="post">
+<p>Norādiet savu vārdu</p>
+<input type="text" name="name_of_senders"><br>
+<p>Norādiet nosūtāmos failus</p><br>
+<input type="file" name="name_of_files"><br>
+<hr>
+<input type="submit" value="nosūtīt">
+<input type="reset" value="atcelt">
+</form>
+
+</section>
+
+<!-- KĀJENE -->
+<footer>
+    <p>Elizabetes Sofijas ģimenes arhīvs 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
