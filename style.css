@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6d6f5;
+}
+
+/* GALVENE */
+header {
+    background-color: #3b0066;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* GALERIJA */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.block {
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+}
+
+.block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.block:hover .overlay {
+    opacity: 1;
+}
+
+/* SATURS */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+/* FORMA */
+.form-section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* KĀJENE */
+footer {
+    background-color: #3b0066;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
