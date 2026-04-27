@@ -3,6 +3,10 @@ function openPage(page) {
 }
 
 
+function openPage(page) {
+    window.location.href = page;
+}
+
 function celebrate() {
     for (let i = 0; i < 50; i++) {
         let confetti = document.createElement("div");
