@@ -1,4 +1,3 @@
-alert("JS strādā!");
 function openPage(page) {
     window.location.href = page;
 }
